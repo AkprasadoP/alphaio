@@ -1,45 +1,22 @@
-# 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
+ALPHAIO(Threads Clone)
+A social media platform that replicates the core features of popular platforms, built with the MERN stack (MongoDB, Express, React, Node.js), Socket.io for real-time features, and Chakra UI for a responsive, modern user interface.
 
-![Demo App](https://i.ibb.co/BnGdh10/Group-62.png)
+Features:
+🌟 Tech Stack: MERN (MongoDB, Express, React, Node.js) + Socket.io + Chakra UI
+🎃 Authentication & Authorization with JWT
+📝 Create Post: Users can create posts
+🗑️ Delete Post: Users can delete their posts
+❤️ Like/Unlike Post: Like or unlike posts to interact with content
+💬 Comment on Post: Engage with posts through comments
+👥 Follow/Unfollow Users: Build a network by following and unfollowing users
+❄️ Freeze Account: Temporarily disable your account
+🌓 Dark/Light Mode: Switch between light and dark themes for a personalized experience
+📱 Completely Responsive: Fully responsive design for mobile, tablet, and desktop
+💬 Chat App with Image Support: Real-time chat functionality with image sharing
+👀 Seen/Unseen Status: Track the read/unread status of messages
+🔊 Notification Sounds: Get notified with sound alerts for new messages and notifications
+⭐ Deployment for FREE: Easy to deploy and host for free
+Setup Instructions
+Clone the repository
 
-[Video Tutorial on Youtube](https://youtu.be/G4V4xO9wyD8)
 
-Feature List:
-
--   🌟 Tech stack: MERN + Socket.io + Chakra UI
--   🎃 Authentication & Authorization with JWT
--   📝 Create Post
--   🗑️ Delete Post
--   ❤️ Like/Unlike Post
--   💬 Comment to a Post
--   👥 Follow/Unfollow Users
--   ❄️ Freeze Your Account
--   🌓 Dark/Light Mode
--   📱 Completely Responsive
--   💬 Chat App With Image Support
--   👀 Seen/Unseen Status for Messages
--   🔊 Notification sounds
--   ⭐ Deployment for FREE
-
-### Setup .env file
-
-```js
-PORT=...
-MONGO_URI=...
-JWT_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
